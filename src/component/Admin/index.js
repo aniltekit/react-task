@@ -2,7 +2,7 @@ import React, { useEffect, useLayoutEffect, useState } from "react";
 import axios from "axios";
 import moment from "moment";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { Col, Row } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 const AdminPage = () => {
   const [userData, setUserData] = useState([]);
   const [page, setPage] = useState(1);
@@ -37,7 +37,7 @@ const AdminPage = () => {
           <h2>Membership Plan</h2>
         </div>
 
-        <div class="row">
+        <div class="d-flex justify-content-between align-items-center">
           <div class="input-group col-md-4">
             <input class="form-control py-2" type="search" value="search" />
             <span class="input-group-append">
@@ -45,6 +45,9 @@ const AdminPage = () => {
                 <i class="fa fa-search bell "></i>
               </button>
             </span>
+          </div>
+          <div>
+            <Button variant="dark"> + Add New Membership</Button>
           </div>
         </div>
 

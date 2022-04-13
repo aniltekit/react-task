@@ -10,11 +10,11 @@ function App() {
   return (
     <div>
       <Header />
-      <Row>
-        <Col xs md xl sm={3}>
+      <Row xs={12}>
+        <Col xs={2}>
           <Navbar />
         </Col>
-        <Col xs sm={9}>
+        <Col xs={9} className="ml-4">
           <AdminPage />
         </Col>
       </Row>

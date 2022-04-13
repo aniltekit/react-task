@@ -28,6 +28,7 @@ code {
 
 .sidebar {
   position: fixed;
+  padding: 20px 40px;
 }
 .sidebar_div {
   margin-top: 120px;
@@ -72,7 +73,7 @@ code {
 }
 .heading_div {
   background-color: #cbcbcb;
-  width: 100%;
+  width: 111%;
   height: 70px;
   margin: auto;
   margin-top: 100px;

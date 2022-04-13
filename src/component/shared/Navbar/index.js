@@ -10,49 +10,49 @@ import report from "../../../assets/icon/report.svg";
 
 const Navbar = () => {
   return (
-    <div class=" sidebar navbar-collapse " id="navbarTogglerDemo01 ">
+    <div class="sidebar navbar-collapse " id="navbarTogglerDemo01 ">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light sidebar_div">
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={deshabord} />
           DASHBOARD{" "}
         </li>
-        <li class="nav-item item_space  item_hover ">
+        <li class="nav-item item_space  item_hover  d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={apoitment} />
           APPOINTMENTS{" "}
         </li>
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
-          <img className="icon_navbar" src={coustmer} />
+          <img className="icon_navbar " src={coustmer} />
           CUSTOMERS{" "}
         </li>
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={membership} />
           MEMBERSHIP{" "}
         </li>
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={order} />
           ORDERS
         </li>
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={employ} />
           EMPLOYEE
         </li>
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={employ} />
           SCHEDULES{" "}
         </li>
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={report} />
           REPORTS
         </li>
-        <li class="nav-item item_space item_hover">
+        <li class="nav-item item_space item_hover d-flex align-items-center mt-2">
           {" "}
           <img className="icon_navbar" src={setting} />
           SETTINGS{" "}
